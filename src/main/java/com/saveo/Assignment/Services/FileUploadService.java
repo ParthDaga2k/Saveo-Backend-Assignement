@@ -25,9 +25,5 @@ public class FileUploadService {
             throw new RuntimeException("fail to store csv data: " + e.getMessage());
         }
     }
-
-//    public List<Product> getAllTutorials() {
-//        return repository.findAll();
-//    }
 }
 
